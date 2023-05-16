@@ -5,40 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megan's Book Nook</title>
+     <!-- Link to Style Sheet -->
+    <link href="../styles/style.css" rel="stylesheet">
+    <link href="../styles/index.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Megan's Book Nook</h1>
     </header>
     <nav>
-        <a href="eloquent-ruby.html">Eloquent Ruby Review</a>
-        <a href="site-contact.html">Contact Us</a>
-    </nav>
-    <section>
-        <ul>
+        <ul class="nav-links">
+            <li class="ruby-link">
+                <a class="ruby" href="eloquent-ruby.html">Eloquent Ruby Review</a>
+            </li>
             <li>
-                <a href="https://www.goodreads.com/en/book/show/14438307">
-                    <img src="../images/cover-clean_ruby.jpg" alt="Clean Ruby by Jim Gay"/>
+                <a href="site-contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="book-section">
+        <ul class="book-images">
+            <li>
+                <a class="tester" href="https://www.goodreads.com/en/book/show/14438307">
+                    <img class="image-book-link shrink" src="../images/cover-clean_ruby.jpg" alt="Clean Ruby by Jim Gay"/>
                 </a>
             </li>
             <li>
                 <a href="https://www.goodreads.com/book/show/15847933-confident-ruby">
-                    <img src="../images/cover-confident_ruby.jpg" alt="Confident Ruby by Avdi Grimm"/>
+                    <img class="image-book-link shrink" src="../images/cover-confident_ruby.jpg" alt="Confident Ruby by Avdi Grimm"/>
                 </a>
             </li>
             <li>
                 <a href="https://www.goodreads.com/en/book/show/9364729">
-                    <img src="../images/cover-eloquent_ruby.jpg" alt="Eloquent Ruby by Russ Olsen"/>
+                    <img class="image-book-link shrink" src="../images/cover-eloquent_ruby.jpg" alt="Eloquent Ruby by Russ Olsen"/>
                 </a>
             </li>
             <li>
                 <a href="https://www.goodreads.com/book/show/16720439-ruby-science?ref=nav_sb_ss_1_12">
-                    <img src="../images/cover-ruby_science.jpg" alt="Ruby Science- The Reference for writing fantastic rails applications"/>
+                    <img class="image-book-link shrink" src="../images/cover-ruby_science.jpg" alt="Ruby Science- The Reference for writing fantastic rails applications"/>
                 </a>
             </li>
             <li>
                 <a href="https://www.goodreads.com/book/show/3892688-the-well-grounded-rubyist?from_search=true&from_srp=true&qid=4HpJjF1omK&rank=1">
-                    <img src="../images/cover-well_grounded_rubyist.jpg" alt="Well Grounded Rubyist by David Black"/>
+                    <img class="image-book-link shrink" src="../images/cover-well_grounded_rubyist.jpg" alt="Well Grounded Rubyist by David Black"/>
                 </a>
             </li>
         </ul>
