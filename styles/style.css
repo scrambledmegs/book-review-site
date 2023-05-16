@@ -1,0 +1,44 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    border: solid red;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 20px;
+}
+
+.ruby-link {
+    padding-right: 20px;
+}
+
+.nav-links li a:hover {
+    color: aquamarine;
+}
+
+ul {
+    list-style: none;
+    display: flex; 
+}
+
+.image-book-link {
+    height: 250px;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.book-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    background-color: antiquewhite;
+}
