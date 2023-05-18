@@ -1,0 +1,83 @@
+/* nav > a {
+    text-decoration: none;
+    color: white;
+} */
+
+h1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 20px;
+}
+
+.goofy {
+    object-fit: contain;
+    height: 300px;
+    width: auto;
+}
+
+.text-info {
+    background-color: lightsteelblue;
+    border: solid white;
+    border-radius: 15px;
+    margin: 10px 50px;
+}
+
+main > section > p {
+    display: flex;
+    justify-content: center;
+    margin: 20px 250px;
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    text-decoration:underline;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 70px 70px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.facebook-logo, .twitter-logo {
+    display: flex;
+    flex-flow:row;
+}
+
+.facebook-logo {
+    justify-content: flex-end;
+    margin-right: 0.5em;
+}
+
+i {
+    font-size: 0px;
+}
+
+
+
+li > p {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.email-add {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
